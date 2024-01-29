@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+
+#input {
+  margin-bottom: 10px;
+}
+
+#btn {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.itemName {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+  color: black;
+}
+
+ul li:nth-child(even) {
+  background: black;
+  color: white;
+}
+
+ul li:hover {
+  color: white;
+  background-color: grey;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+#listBox {
+  height: auto;
+  width: 300px;
+  border: solid black;
+}
+
+
+#task{
+  height: 30px;
+}
+
+#task:hover{
+  cursor: text;
+}
+
+#btn{
+  height: 30px;
+}
